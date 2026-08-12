@@ -26,6 +26,8 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -34,6 +36,7 @@ body {
     color: var(--text-light);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
 }
 
 ul {
@@ -1520,7 +1523,8 @@ a {
         padding: 0.5rem 1rem;
     }
 
-    .logo-img, .header.scrolled .logo-img {
+    .logo-img,
+    .header.scrolled .logo-img {
         height: 50px;
     }
 
